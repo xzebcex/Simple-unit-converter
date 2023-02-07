@@ -27,6 +27,7 @@ The code consists of six functions that perform the conversions between differen
 4.	kilometer_to_mile: This function converts kilometers to miles.
 5.	celsius_to_fahrenheit: This function converts Celsius to Fahrenheit.
 6.	fahrenheit_to_celsius: This function converts Fahrenheit to Celsius.
+  
 The code also defines a dictionary named conversion that maps the available conversions to their corresponding functions. 
 The code then prompts the user to select a conversion from the list and enters the value in the base unit. The code uses the conversion.get() method to retrieve the function that performs the selected conversion and stores it in the operation variable.
 If the operation variable and the value entered by the user are not None, the code calls the function with the value as an argument and displays the result.
